@@ -1,0 +1,84 @@
+link to finished codepen: https://codepen.io/vasqueza91/pen/YzNxjpw?editors=1100&__cf_chl_captcha_tk__=3de69876d0032ca3c973c2e4627c81e229126cff-1617730006-0-Af7twvmcWpwfLQ2V1VHAcjyOzCC0_eBPRJML_K0Fv4k4vTvl58GfpNeAuAPo1_5XRp69kRGpDMYwJd2En0jApXBh5t_Pa1LNBXY0wgPzX-ium1pRI1-YJiNaAVik2NGydrIHXmYqrUbvjG7jUrzVFYKIvjvsBUf-vHgfTxsku-CbjFf-tY5MsJGOatgQaLCgEftcJCt08gt0B7DmRehLbpixDMa55zLc2uzD5-F-03q1JvIsy6GdEvyNokuE7jsCuPjEwKcCj4RpaswfwGcbe8mDfv-11Ts4ALyZyj92_RZF6Zg_tMJIu-AKcTBczHL5Of_W6AHGnU-IaMJkG0ug-sOOnf0IttV_AWAIdAjXb6X4E9BPVoERjQ-meTTpuzJvxCkvwwGcDhJNiooifgkEPZWyVO6VW09keSZH6GsBisY7SHm7fT1CkXbc952dPkLkNtGX16dFKJKD4kePCxzXGjA1FAPY2njdvPL0CT863bYiNN4FmdO2Xx3ZkerNHr7bREmYKxVJNoEJ1ZTSHoTNdNR1fRdcX8_9FAKkvJINNIgHybKpjlA6XnWW9DK2teEjsSepaX33cizdvBjY0CJBDZHP30RC34rPzsJwpD7EU3Ti3iB6BT5-JXwPWzpIW8Ok83NlV7-XzfNgFPQcgri2szz15t3OMjBbqqNfMgLSGZnuiue5PPwxC9A6BB_PUdJ5LgzLSFVBUOycAgy1_WhyPVE
+
+    1. What is Semantic HTML? 
+    It's HTML that gives meaning to our markup
+    2. What is HTML used for? 
+    HTML is the structure for our website
+    3. What is an attribute and where do we put it? 
+    An attrbute is used to provide information about an element without adding it on to the page. We put the attribute right after the opening tag. 
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is used to display the improtance of a specific item, it's usually used on the title of a website and should only be used once.
+    5. Name two tags that have required attributes
+    Anchor tags require href attributes in order to provide a link. Image tages require src or sorce attributes to point to the address of the image that is being displayed.
+    6. What do we put in the head of our HTML document?
+    We put a header tag in the head of our document
+    7. What is an id?
+    An id is an identifier that should only be used to reference one specific element. 
+    8. What elements can I add an id to? 
+    An id can be added to a div or h1 element.
+    9. How many times can I use the same id on a page? 
+    You can only use an a specific id once on a page.
+    10. What is a class? 
+    A class is an identifier that's used to reference multiple elements
+    11. What elements can I add a class to? 
+    A class can be added to a div, h2, span, or a p element.
+    12. How many times can I use the same class on a page? 
+    You can use a class multiple times on a page.
+    13. How do I get my link to open in a new tab?
+    An HTML link will open a new tab using the target="_blank" attribute. 
+    14. What is the alt attribute in the image tag used for?
+    The alt attribute is used to provide an alternative text for an image in the case that an image doesn't show for the user. 
+    15. How do I reference an id?
+    To reference an id we use the #idname symbol.
+    16. What is the difference between a section and a div
+    A section indicates that the content inside is grouped while a div tag is used as a container for HTML elements.
+    17. What is CSS used for?
+    Is the plan, the paint, and the decoration of the website.
+    18. How to we select an element? Example - every h2 on the page
+    To select all of a specific element in CSS you type the element followed by curly brackets and then your specification. For example, h2{font-size: 20px;}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class can used multiple times where an id is only used for 1 element. You would use a class when you would want to consitently style multiple elements throughout the website. An id is used to style one particular element, for example the title pf a website.
+    20. How do we select classes in CSS?
+    We select classes by using the .classname
+    21. How do we select a p element with a single class of “human””?
+    .human p{}
+    22. What is a parent child selector? When would this be useful?
+    The parent child selctor selects all the elements that are a direct child of a specific element. This would be useful when changing multiple elements belonging to a parent.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar{}
+    24. What is a pseudo selector?
+    A pseudo selector specifies a special state of the selected element.
+    25. What do we use the change the spacing between lines?
+    line-height
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transformation
+    28. How do I add a 1px border around my div that is dotted and black?
+    .classname{
+        border-style: dotted;
+        color: black;
+        size: 1px;
+    }
+    29. How do I select everything on the page? 
+    30. How do I write a comment in CSS?
+    /* comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    Not often because you could potentially delete too many things
+    34. Why should I use version control? 
+    It's up to date
+    35. How often should I commit to github?
+    As often as a word document or every 20 minutes
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin firstname-lastname
+    37. Walk me through Lambda's git flow. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
